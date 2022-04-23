@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Car list</h1>
+
+    <form action="">
+        <label>
+            <div class="input-group">
+                {{ search_form }}
+                <button class="btn btn-success" type="submit">
+                    <i>Search</i>
+                </button>
+            </div>
+        </label>
+    </form>
+    <a style="float: right" class="btn btn-primary" href="{% url 'taxi:car-create' %}">Create Car</a>
+    <br>
+    <br>
+    {% if car_list %}
+        <table class="table">
+            <tr>
+                <th>ID</th>
+                <th>Model</th>
+                <th>Country</th>
+            </tr>
+
+            {% for car in car_list %}
+                <tr>
+                    <td>
+                        <a href="{{ car.get_absolute_url }}">{{ car.id }}</a>
+                    </td>
+                    <td>
+                        {{ car.model }}
+                    </td>
+                    <td>
+                        {{ car.manufacturer.name }}
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+    {% else %}
+        <p>There are no cars in taxi</p>
+    {% endif %}
+{% endblock %}
