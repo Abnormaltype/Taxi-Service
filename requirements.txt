@@ -4,3 +4,6 @@ django-crispy-forms==1.14.0
 django-debug-toolbar==3.2.4
 sqlparse==0.4.2
 tzdata==2022.1
+dj_database_url==0.5.0
+psycopg2==2.9.3
+whitenoise==6.0.0
