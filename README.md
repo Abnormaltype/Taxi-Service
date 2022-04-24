@@ -4,7 +4,7 @@ Web application supports authentication, simulation of a simple taxi service.
 
 ## Check it out!
 
-[Taxi-service project deploy to Heroku](link)
+[Taxi-service project deploy to Heroku](https://tax-service.herokuapp.com/)
 
 ## Installation
 
