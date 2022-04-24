@@ -19,12 +19,12 @@ pip install -r requirements.txt
 python3 manage.py runserver
 ```
 
-##Features
+## Features
 
 * Authentication functionality for Driver(User)
 * Powerful admin panel for advanced managing
 * Managing cars, drivers and manufacturers directly from website interface
 
-##Demo
+## Demo
 
 ![Website interface](demo.png)
