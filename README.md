@@ -34,6 +34,6 @@ python3 manage.py runserver
 
 ## Demo
 
-![Website interface](demo_1.png)
+![Website interface](demo_2.png)
 
 
