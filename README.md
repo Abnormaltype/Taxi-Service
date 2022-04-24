@@ -25,6 +25,15 @@ python3 manage.py runserver
 * Powerful admin panel for advanced managing
 * Managing cars, drivers and manufacturers directly from website interface
 
+## Access
+
+* username: Username
+* password: Admin12345
+* Warning! please do not delete users!!!
+
+
 ## Demo
 
 ![Website interface](demo_1.png)
+
+
