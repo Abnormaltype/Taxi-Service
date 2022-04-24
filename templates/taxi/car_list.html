@@ -7,13 +7,16 @@
         <label>
             <div class="input-group">
                 {{ search_form }}
-                <button class="btn btn-success" type="submit">
+                <button class="button-search btn btn-success" type="submit">
+
                     <i>Search</i>
                 </button>
             </div>
         </label>
     </form>
-    <a style="float: right" class="btn btn-primary" href="{% url 'taxi:car-create' %}">Create Car</a>
+    <a style="float: right" class="button-create btn btn-primary" href="{% url 'taxi:car-create' %}">
+        Create Car
+    </a>
     <br>
     <br>
     {% if car_list %}
